@@ -33,7 +33,7 @@ import getpass
 
 sysuser = os.environ.get("PYTHON_SYSUSER", "SYSTEM")
 
-dsn = os.environ.get("PYTHON_SYS_CONNECT_STRING", "localhost/orclpdb")
+dsn = os.environ.get("PYTHON_SYS_CONNECT_STRING", "localhost/XEPDB1")
 
 syspw = os.environ.get("PYTHON_SYSPASSWORD")
 if syspw is None:
